@@ -1,0 +1,71 @@
+ .outer{
+    height: 1000px;
+    width: 900px;
+    background-color: lightslategrey;
+    display: flex;
+    position: relative;
+}
+#pl1{
+    position: absolute;
+    display: flex;
+    top: 20px;
+    left: 20px;
+    height: 400px;
+    width: 380px;
+    background-color: lightblue;
+}
+#pl2{
+    position: absolute;
+    display: flex;
+    top: 20px;
+    right: 20px;
+    height: 400px;
+    width: 380px;
+    background-color: lightpink;
+}
+#pl3{
+    position: absolute;
+    display: flex;
+    bottom: 20px;
+    left: 20px;
+    height: 400px;
+    width: 380px;
+    background-color:lightgoldenrodyellow;
+}
+#pl4{
+    position: absolute;
+    display: flex;
+    bottom: 20px;
+    right: 20px;
+    height: 400px;
+    width: 380px;
+    background-color:lightseagreen;
+}
+.head{
+    height: 50px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#dice{
+    color: black;
+    position: absolute;
+    padding: 20px;
+    font-size: 30px;
+    top: 440px;
+    left: 350px;
+    right: 350px;
+    bottom: 440px;
+} 
+.label{
+    margin-top: 473px;
+    margin-left: 663px;
+    background-color:cornsilk;
+    height: 50px;
+    width: 80px;
+    text-align: center;
+    z-index: 1;
+}
+.label label{
+    margin-top: 8px;
+}
